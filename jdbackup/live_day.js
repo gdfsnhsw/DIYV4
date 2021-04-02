@@ -1,6 +1,6 @@
 /*
 只能用一天。需每天寻找直播抓包
-1 8-23 1 * * live_day.js
+1 8-23 2 * * live_day.js
 */
 const $ = new Env('整点京豆雨');
 let allMessage = '';
@@ -21,12 +21,12 @@ let ids = {
   '15': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
   '16': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
   '17': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
-  '18': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
-  '19': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
-  '20': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
-  '21': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
-  '22': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY',
-  '23': 'RRA3S6TRRbnNNuGN43oHMA5okbcXmRY'
+  '18': 'RRA2ZaWTTb7TS1U3AM7RWqnKN7PNmmp',
+  '19': 'RRA2ZaWTTb7TS1U3AM7RWqnKN7PNmmp',
+  '20': 'RRA2ZaWTTb7TS1U3AM7RWqnKN7PNmmp',
+  '21': 'RRA2ZaWTTb7TS1U3AM7RWqnKN7PNmmp',
+  '22': 'RRA2ZaWTTb7TS1U3AM7RWqnKN7PNmmp',
+  '23': 'RRA2ZaWTTb7TS1U3AM7RWqnKN7PNmmp'
 }
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
