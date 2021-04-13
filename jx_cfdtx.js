@@ -1,4 +1,5 @@
 /**
+0 0 * * * jx_cfdtx.js
 *
   Name:财富岛提现
   Address: 京喜App ====>>>> 全民赚大钱
