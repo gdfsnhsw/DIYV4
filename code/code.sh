@@ -5,7 +5,7 @@
 ## 定义每个账号互助的数量。默认为10，不建议修改太高。
 # strictnumset="10"
 ## 向前助力账号的数量。不能大于总CK数量
-# ck_strictnumset="5"
+ck_strictnumset="5"
 
 ## 导入通用变量与函数
 dir_shell=/ql/shell
